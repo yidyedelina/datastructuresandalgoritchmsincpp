@@ -46,6 +46,7 @@ void StringLinkedList::removeFront(){
     head = old->next;
     delete old;
 }
+
 int main(){
     StringLinkedList b;
     b.addFront("hello");
